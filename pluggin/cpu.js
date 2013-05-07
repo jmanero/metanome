@@ -5,7 +5,7 @@ var OS = require('os');
  * memory usage
  */
 
-exports.interval = 5000;
+exports.interval = 5;
 
 // Constants
 var numCpus = OS.cpus().length;

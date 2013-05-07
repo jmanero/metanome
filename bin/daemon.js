@@ -21,15 +21,15 @@ var outputs = new Outputs(config);
 tasks.worker = function(pluggin, done) {
 	pluggin.run(function(err, metrics) {
 		Object.keys(metrics).forEach(function(key) {
-			if(metrics[key] instanceof Array) {
+			if (metrics[key] instanceof Array) {
 				metrics[key].forEach(function(m) {
 					outputs.send(key, m);
 				})
-			} else { 
+			} else {
 				outputs.send(key, metrics[key]);
 			}
 		})
-		
+
 		done();
 	});
 };
