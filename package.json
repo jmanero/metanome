@@ -1,6 +1,6 @@
 {
     "name": "metanome",
-    "version": "0.1.0",
+    "version": "0.0.1",
     "description": "Timeseries reporting framework for Graphite and OpenTSDB interfaces",
     "keywords": [],
     "dependencies": {
