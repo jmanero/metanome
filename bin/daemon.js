@@ -16,7 +16,7 @@ var tasks = new Queue({
 	concurrency : +(config.concurrency) || 32
 });
 
-var outputs = new Outputs(config.outputs, config.prefix);
+var outputs = new Outputs(config);
 
 tasks.worker = function(pluggin, done) {
 	pluggin.run(function(err, metrics) {
