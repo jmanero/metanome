@@ -1,11 +1,9 @@
 {
-    "name": "metanome",
+    "name": "metanome-tail",
     "version": "0.1.0",
-    "description": "",
+    "description": "Metanome module for counting lines tailed from a file",
     "keywords": [],
-    "dependencies": {
-    	"qrly" : "0.1.x"
-    },
+    "dependencies": { },
     "author": {
         "name": "John Manero",
         "email": "jmanero@dyn.com"
@@ -13,7 +11,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git: //github.dev.mht.dyndns.com/Capacity/metanome.git"
+        "url": "git: //github.dev.mht.dyndns.com/Metanome/metanome-tail.git"
     },
     "engines": {
         "node": ">=0.8.x"
