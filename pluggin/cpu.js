@@ -1,5 +1,10 @@
 var OS = require('os');
 
+/**
+ * Collect basic host-level performance metrics, including load averages and
+ * memory usage
+ */
+
 exports.interval = 5000;
 
 // Constants

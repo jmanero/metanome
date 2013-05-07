@@ -4,12 +4,13 @@
     "description": "",
     "keywords": [],
     "dependencies": {
+    	"qrly" : "0.1.x"
     },
     "author": {
         "name": "John Manero",
         "email": "jmanero@dyn.com"
     },
-    "license": "private",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "git: //github.dev.mht.dyndns.com/Capacity/metanome.git"
