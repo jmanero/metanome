@@ -2,7 +2,7 @@ var OS = require('os');
 var hostname = 'macbook'; //OS.hostname().replace(/\./g, '_');
 
 var Config = module.exports = {
-	prefix : "jmanero." + hostname, // Default metric prefix
+	root : "jmanero." + hostname, // Default metric-path root
 	concurrency : 32,
 	debug : true,
 	outputs : [ { // Array of metric servers to push results to
@@ -13,7 +13,7 @@ var Config = module.exports = {
 //		protocol : 'graphite',
 //		host : 'some.other.server',
 //		port : 2003,
-//		prefix : hostname, // Connection-specific metric prefix
+//		root : hostname, // Connection-specific metric root
 //	}, {
 //		protocol : 'opentsdb',
 //		host : 'some.other.server',
